@@ -12,6 +12,17 @@ project:
   toc:
     - file: README.md
     - file: ./docs/general/mth5_format.ipynb
+    - title: Beginner's Guide
+      children:
+      - file: ./notebooks/00_Getting_Started.ipynb
+      - file: ./notebooks/01_Basics_of_MTH5.ipynb
+      - file: ./notebooks/02_Generating_MTH5_From_NIMS.ipynb
+      - file: ./notebooks/03_Using_MTH5_With_TSVI.ipynb
+      - file: ./notebooks/04_Generating_MTH5_From_Z3D.ipynb
+      - file: ./notebooks/05_Transfer_Functions_in_MTH5.ipynb
+      - file: ./notebooks/06_RunTS_And_In-Notebook_Plots.ipynb
+      - file: ./notebooks/07_ChannelTS.ipynb
+      - file: ./notebooks/08_MTH5_in_Parallel.ipynb
     - title: Basic Data 
       children:
       - title: Time Series
@@ -36,6 +47,7 @@ project:
         - file: ./docs/notebooks/make_mth5_driver_v0.1.0.ipynb
         - file: ./docs/notebooks/make_mth5_driver_v0.2.0.ipynb
         - file: ./docs/notebooks/make_mth5_from_geomag.ipynb
+        - file: ./docs/notebooks/make_mth5_from_intermag.ipynb
         - file: ./docs/notebooks/make_mth5_from_lemi.ipynb
         - file: ./docs/notebooks/make_mth5_from_metronix.ipynb
         - file: ./docs/notebooks/make_mth5_from_nims.ipynb
